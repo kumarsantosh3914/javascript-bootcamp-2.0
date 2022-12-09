@@ -1,14 +1,14 @@
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
     max-width: 1440px;
     background-color: #242B2E;
-    margin: auto;
-    overflow: hidden;
+    /* margin: auto;
+    overflow: hidden; */
 }
 
 nav {
@@ -64,18 +64,22 @@ main {
 
 .leftmain {
     margin-right: 5%;
-    font-size: 35px;
+    font-size: 25px;
+    color: #ffffff;
     /* margin-right: 150px; */
 }
 
 .rightmain {
     font-size: 25px;
-    /* margin-right: 50px; */
+    margin-left: 10%;
+    margin-right: 10px;
+    color: #ffffff;
 }
 
 .banner-image {
-    margin-top: 5%;
-    margin-left: 10%;
+    margin-top: 40px;
+    padding-left: 150px;
+    padding-right: 300px;
 }
 /* .banner-image {
     position: absolute;
