@@ -1,0 +1,145 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-container {
+    display: flex;
+    /* height: 15vh; */
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 5%; */
+    margin: 2.5rem 8rem;
+    font-weight: 600;
+    font-family: "Orbitron", Helventica, sans-serif;
+}
+
+.list-item {
+    margin: 0 1rem;
+    list-style-type: none;
+}
+
+.list-item:nth-child(1) {
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+}
+
+.nav-button {
+    cursor: pointer;
+}
+
+.square {
+    position: relative;
+    bottom: 0px;
+    left: 100px;
+}
+
+.hero-image {
+    width: 450px;
+}
+
+button {
+    padding: 0.5rem 3rem;
+    background-color: transparent;
+    border-radius: 13px;
+    font-family: "Orbitron", Helventica, sans-serif;
+}
+
+.search-icon {
+    margin: 20px;
+}
+
+.globe {
+    position: relative;
+    align-items: center;
+    margin: 330px;
+    bottom: 300px;
+}
+
+.square {
+    position: relative;
+    top: 180px;
+    left: 40vh;
+}
+
+.star {
+    position: absolute;
+    top: 160px;
+    left: 180px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+}
+
+.hero-container-right {
+    position: relative;
+    top: 100px;
+}
+
+.hero-image {
+    position: absolute;
+    left: 125px;
+    top: 150px;
+}
+
+.hero-heading {
+    font-size: 2.5rem;
+    position: relative;
+    right: 90px;
+    bottom: 70px;
+    font-family: "Orbitron", Helventica, sans-serif;
+    align-items: center;
+}
+
+.hero-description {
+    position: relative;
+    right: 60px;
+    bottom: 50px;
+    font-size: 13px;
+}
+
+.icons {
+    position: relative;
+    left: 14px;
+    top: 100px;
+    margin-top: 15px;
+}
+
+.contact-heading {
+    position: absolute;
+    top: 280px;
+    left: 50px;
+    font-size: 18px;
+    color: gray;
+}
+
+.button-join {
+    /* color: #ffff; */
+    margin-left: 15px;
+    background-color: #0000;
+    margin-right: -200px;
+}
+
+.button-email {
+    color: gray;
+    border-width: 2px;
+}

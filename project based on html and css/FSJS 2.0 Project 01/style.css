@@ -1,0 +1,116 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+/* .body {
+    background-color: crimson;
+} */
+/* //top right bottom left */
+.container {
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-bottom: 30px;
+    margin-left: 60px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.banner-container img {
+    height: 500px;
+    width: 800px;
+}
+
+.grow-list ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: bold;
+    color: #6c757d;
+    list-style-type: none;
+}
+
+.grow-list ul li:hover {
+    color: #212529;
+}
+
+.grow-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grow-list ul {
+    position: relative;
+    right: 280px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7371fc;
+}
+
+.button-group button.nav-button {
+    border-radius: 5px;
+    position: relative;
+    right: 100%;
+    background-color: #7371fc;
+    color: #ffff;
+    height: 40px;
+    width: 120px;
+    border: 1px solid #7371fc;
+}
+
+.logo img {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.heading-text {
+    font-family: Poppins;
+    font-size: 70px;
+    color: #3c096c;
+}
+
+h1.heading-text span {
+    color: #826aed;
+}
+
+p.description {
+    font-family: Poppins;
+    font-size: 25px;
+    color: #6c757d;
+    margin-top: 25px;
+}
+
+.banner-container button {
+    margin-top: 5px;
+}
+
+.banner-container .nav-button {
+    background-color: #7371fc;
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: Poppins;
+    color: #ffff;
+    border: 1px solid #7371fc;
+}
+
+
