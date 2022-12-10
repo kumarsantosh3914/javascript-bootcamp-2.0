@@ -1,145 +1,128 @@
 /* You can not modify anything from the HTML file */
 /* You can only modify the CSS file */
 
-* {
+*{
+    padding: 0%;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    box-shadow: border-box;
 }
-
 .navbar-container {
     display: flex;
-    /* height: 15vh; */
-    /* flex-direction: row; */
-    align-items: center;
     justify-content: space-between;
-    /* padding: 0 5%; */
-    margin: 2.5rem 8rem;
+    align-items: center;
+    margin: 2rem 8rem;
+    font-family: "Orbitron", Helvetica, sans-serif;
     font-weight: 600;
-    font-family: "Orbitron", Helventica, sans-serif;
 }
-
-.list-item {
-    margin: 0 1rem;
-    list-style-type: none;
+.list-item{
+    list-style: none;
+    margin: 0rem 1rem;
 }
-
-.list-item:nth-child(1) {
+.list-item:nth-child(1){
     font-size: 1.3rem;
     font-weight: 800;
     text-decoration: underline;
 }
-
-.list {
+.list{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.button-group {
+.button-group{
     display: flex;
     align-items: center;
 }
-
-.nav-button {
+.nav-button{
     cursor: pointer;
 }
-
-.square {
+.square{
     position: relative;
     bottom: 0px;
     left: 100px;
 }
 
-.hero-image {
+.hero-image{
     width: 450px;
 }
-
-button {
+button{
     padding: 0.5rem 3rem;
     background-color: transparent;
-    border-radius: 13px;
-    font-family: "Orbitron", Helventica, sans-serif;
+    border-radius: 0.75rem;
+    font-family: "Orbitron", Helvetica, sans-serif;
 }
-
-.search-icon {
+.search-icon{
     margin: 20px;
 }
-
-.globe {
+.globe{
     position: relative;
     align-items: center;
-    margin: 330px;
-    bottom: 300px;
+    margin-left: 330px;
+    bottom: 150px;
 }
-
-.square {
+.square{
     position: relative;
     top: 180px;
     left: 40vh;
 }
-
-.star {
-    position: absolute;
+.star{
+    position:absolute;
     top: 160px;
-    left: 180px;
-}
+    left: 180vh;
 
-.hero-container {
+}
+.hero-container{
     display: flex;
     align-items: center;
 }
-
-.hero-container-right {
+.hero-container-right{
     position: relative;
     top: 100px;
-}
-
-.hero-image {
+    } 
+.hero-img{
+    width: 450px;
     position: absolute;
     left: 125px;
     top: 150px;
 }
 
-.hero-heading {
+.hero-heading{
+    font-family: "Orbitron", Helvetica, sans-serif;
     font-size: 2.5rem;
     position: relative;
+    align-items: center;
     right: 90px;
     bottom: 70px;
-    font-family: "Orbitron", Helventica, sans-serif;
-    align-items: center;
 }
 
-.hero-description {
+.hero-description{
     position: relative;
     right: 60px;
     bottom: 50px;
-    font-size: 13px;
+    font-size: 0.8rem;
 }
 
-.icons {
+.icons{
     position: relative;
-    left: 14px;
     top: 100px;
+    left: 145px;
     margin-top: 15px;
 }
 
-.contact-heading {
+.contact-heading{
     position: absolute;
-    top: 280px;
-    left: 50px;
+    top: 200px;
+    left: 165px;
+    color: grey;
     font-size: 18px;
-    color: gray;
 }
 
-.button-join {
-    /* color: #ffff; */
+.button-join{
+    color: #fff;
+    background-color: #000;
     margin-left: 15px;
-    background-color: #0000;
-    margin-right: -200px;
 }
 
-.button-email {
+.button-email{
     color: gray;
     border-width: 2px;
 }
