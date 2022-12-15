@@ -5,28 +5,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <title>Credit Card Landing Page</title>
 </head>
 <body>
-    <nav class="flex justify-between bg-[#000000]">
-        <div class="flex ml-8 mt-4 mb-2">
-            <img src="./Assets/Icons/Logo.svg" alt="logo">
+    <div class="container-main">
+        <div class="navbar">
+            <nav class="navbar-main">
+                <div class="logo">
+                    <img src="./Assets/Icons/Logo.svg" alt="Logo">
+                </div>
+                <div class="items">
+                    <ul class="items-list">
+                        <li>Home</li>
+                        <li>Features</li>
+                        <li>Pricing</li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+                <div class="contact-details">
+                    <div>ENG</div>
+                    <img src="./Assets/Icons/btn-pink-bg.svg" alt="btn-pink-bg">
+                    <div> <p>Contact Us</p></div>
+                </div>
+                <div class="hanmburger">
+                    <div class="hamburger-inside">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </nav>
         </div>
-        <div class="flex mt-6 justify-between text-white">
-            <ul class="flex gap-12">
-                <li>Home</li>
-                <li>Features</li>
-                <li>Pricing</li>
-                <li>About Us</li>
-            </ul>
-        </div>
-        <div class="flex mr-12">
-            <h1 class="mr-2 text-white mt-6">Eng</h1>
-            <img class="px-2 py-6" src="./Assets/Icons/btn-pink-bg.svg" alt="btn-pink-bg">
-            <a href="#" class="px-4 text-white text-sm mt-6 mr-12">ContactUs</a>
-        </div>
-    </nav>
+        
+        <!-- card section -->
+        <div class="credit-cards">
+            <!-- left section -->
+            <div class="left-section">
+                <div class="transactions">
+                    <h1>Simplify All Transactions</h1>
+                </div>
+                <div class="transactions-1">
+                    <h1>in <span>One Card</span></h1>
+                </div>
+                <div class="paragraph-1">
+                    <p>Hurry up and join now, with this you can manage your daily</p>
+                </div>
+                <div class="paragraph-2">
+                    <p>finances easily and safely.</p>
+                </div>
+                <div class="btn">
+                    <div class="button">
+                        <img src="./Assets/Icons/btn-pink-bg.svg" alt="btn-pink-bg">
+                    </div>
+                    <span>GET STARTED</span>
+                    <div class="arrow">
+                        <img src="./Assets/Icons/RightArrow.svg" alt="RightArrow">
+                    </div>
+                </div>
+                <div class="number-1">
+                    <div class="num-42">
+                        <h1>42K <span>+</span></h1>
+                        <div>
+                            <div> <p>Happy</p></div>
+                            <div> <p>Active user</p></div>
+                        </div>
+                    </div>
+                    <div> | </div>
+                    <div class="num-12">
+                        <h1>12 <span>+</span></h1>
+                        <div>
+                            <div> <p>Years</p></div>
+                            <div> <p>Experience</p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- right section -->
+            <div class="right-section">
+                <div class="front-cards">
+                    <img src="./Assets/Photos/frontCards.png" alt="front-cards">
+                </div>
+                <div class="back-cards">
+                    <img src="./Assets/Photos/backCards.png" alt="back-cards">
+                </div>
+            </div>
+        </section>
+    </div>
 
     <!-- main section -->
 </body>

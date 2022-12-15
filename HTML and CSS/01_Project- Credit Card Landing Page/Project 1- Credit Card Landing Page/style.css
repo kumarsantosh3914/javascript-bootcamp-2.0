@@ -1,3 +1,176 @@
-section {
-    background-image: url(./Assets/Photos/backCards.png);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    align-items: center;
+    pad: 10px 70px;
+}
+
+.logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10px;
+}
+
+nav div .logo img {
+    width: 70%;
+}
+
+.navbar-main .items .items-list {
+    display: flex;
+    color: #f8f9fa;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+
+.contact-details {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    color: #f8f9fa;
+}
+
+div.contact-details img {
+    z-index: 2;
+    position: absolute;
+    left: 60px;
+}
+
+.contact-details div:nth-child(3) {
+    z-index: 3;
+}
+
+.hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F637EC;
+    width: 15%;
+    padding: 25px 0;
+}
+
+.hamburger div {
+    width: 50%;
+}
+
+.hamburger-inside div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f8f9fa;
+    margin: 5px;
+    width: 80%;
+}
+
+.credit-cards {
+    background-color: #000000;
+    display: flex;
+}
+
+.credit-cards .left-section {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 120px;
+    padding: 40px 70px;
+}
+
+.credit-cards .transactions, .transactions-1{
+    color: #f8f9fa;
+    font-size: 1.9rem;
+}
+
+.credit-cards .transactions-1 {
+    color: #f637ec;
+}
+
+.paragraph-1, .paragraph-2 {
+    color: #adb5bd;
+}
+
+.paragraph-1 {
+    margin-top: 30px;
+}
+
+.paragraph-2 {
+    margin-bottom: 50px;
+}
+
+.number-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.btn {
+    color: #f8f9fa;
+}
+
+.num-42 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num-12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: #f8f9fa;
+}
+
+.num-42 div {
+    padding-left: 10px;
+}
+
+.btn {
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    position: relative;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+span {
+    margin-left: 20px;
+    z-index: 2;
+}
+
+.arrow {
+    display: flex;
+    align-items: center;
 }
