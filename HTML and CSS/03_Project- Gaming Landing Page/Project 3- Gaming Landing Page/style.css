@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(./Assets/Photos/futuristic-bg.png);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 100%;
+    transition: all .50s ease;
+    padding: 22px 8%;
+    z-index: 300;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 110px;
+}
+
+.list-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    list-style: none;
+}
+
+.list-items a {
+    text-decoration: none;
+    color: #fefefe;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+/* .list-items a:hover {
+    color: ;
+} */
+
+.button button {
+    padding: 10px 30px;
+    background-color: #DE4839;
+    color: #fefefe;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.button button:nth-child(1) {
+    background-color: transparent;
+    border: none;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 8%;
+    margin-top: 120px;
+}
+
+.left {
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+.right {
+    flex: 1;
+    margin-top: 120px;
+}
+
+.left h1 {
+    font-size: 3.2rem;
+    color: #ffffff;
+}
+
+.para {
+    color: gray;
+    margin-top: 30px;
+}
+
+.btn {
+    margin-top: 30px;
+}
+
+.btn button {
+    padding: 10px 30px;
+    color: #ffffff;
+    background-color: #DE4839;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid #fefefe;
+}
+
+.btn button:hover {
+    background-color: transparent;
+    color: #fefefe;
+    font-weight: 500;
+    border: 1px solid #fefefe;
+}
+
+.right .play-button img {
+    margin-top: 120px;
+    margin-left: 320px;
+}
+
+.right .heading {
+    margin-left: 220px;
+    margin-top: 80px;
+    color: #fefefe;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.rightArrow {
+    margin-left: 400px;
+}
+
+
+.game-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
