@@ -15,7 +15,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     right: 0;
     width: 100%;
@@ -53,7 +53,7 @@
 
 .button button {
     padding: 10px 30px;
-    background-color: #DE4839;
+    background-color: #f4694c;
     color: #fefefe;
     text-decoration: none;
     font-weight: 500;
@@ -98,7 +98,7 @@
 .btn button {
     padding: 10px 30px;
     color: #ffffff;
-    background-color: #DE4839;
+    background-color: #f4694c;
     font-weight: 500;
     text-decoration: none;
     border: 1px solid #fefefe;
@@ -108,7 +108,7 @@
     background-color: transparent;
     color: #fefefe;
     font-weight: 500;
-    border: 1px solid #fefefe;
+    border: 1px solid #ffffff;
 }
 
 .right .play-button img {
@@ -130,10 +130,157 @@
 
 
 .game-section {
-    display: flex;
-    justify-content: space-between;
+    padding: 22px 8%;
 }
 
+.image-card {
+    height: 260px;
+}
+
+
+.game-section  .image-card .image-card-1 {
+    display: flex;
+    align-items: flex-end;
+    background: url('./Assets/Photos/image\ 2.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 380px 100%;
+}
+
+div.image-card-1 .review-1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.image-card .image-card-1 div button {
+    background-color: #f4694c;
+    color: #ffffff;
+    padding: 5px 8px;
+    border: 1px solid #f4694c;
+}
+
+.head h4 {
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.head {
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.game-section  .image-card .image-card-2 {
+    display: flex;
+    align-items: flex-end;
+    background: url('./Assets/Photos/image\ 4.png');
+    background-size: 400px 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+div.image-card-2 .review-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.game-section .image-card-2 div button {
+    color: #ffffff;
+    background-color: #f4694c;
+    padding: 5px 8px;
+    border: 1px solid #f4694c;
+}
+
+.game-section .image-card-2 .head {
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.game-section .image-card .image-card-3 {
+    display: flex;
+    align-items: flex-end;
+    background: url('./Assets/Photos/image\ 3.png');
+    background-repeat: no-repeat;
+    background-size: 400px 100%;
+    background-position: center center;
+}
+
+div.image-card-3 .review-3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.game-section .image-card-3 div button {
+    color: #ffffff;
+    background-color: #f4694c;
+    border: 1px solid #f4694c;
+    padding: 5px 8px;
+}
+
+.game-section .image-card-3 .head {
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.game-section .image-card .image-card-4 {
+    display: flex;
+    align-items: flex-end;
+    background: url('./Assets/Photos/Rectangle\ 56.png');
+    background-repeat: no-repeat;
+    background-size: 400px 100%;
+    background-position: center center;
+}
+
+div.image-card-4 .review-4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.game-section .image-card-4 div button {
+    color: #ffffff;
+    background-color: #f4694c;
+    border: 1px solid #f4694c;
+    padding: 5px 8px;
+}
+
+.game-section .image-card-4 .head {
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+.game-section .image-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.game-section .para {
+    margin-left: 315px;
+    font-weight: 800;
+    font-size: 2.9rem;
+    color: #000000;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+.game-section .para p:nth-child(2) {
+    margin-left: 140px;
+}
 
 
 
