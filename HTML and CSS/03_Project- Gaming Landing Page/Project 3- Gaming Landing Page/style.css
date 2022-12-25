@@ -6,6 +6,15 @@
     box-sizing: border-box;
 }
 
+:root{
+    --color-0: #f4694c;
+    --color-1: #ffffff;
+    --color-2: #fde1db;
+    --color-3: #000308;
+    --color-4: #000000;
+    --color-5: #908f90;
+}
+
 .container {
     background-image: url(./Assets/Photos/futuristic-bg.png);
 }
@@ -283,4 +292,95 @@ div.image-card-4 .review-4 {
 }
 
 
+.war-game {
+    display: flex;
+    background-color: var(--color-1);
+    gap: 50px;
+    padding: 22px 8%;
+    margin-top: 10%;
+}
 
+.left-1 {
+    background-image: url(./Assets/Photos/Rectangle\ 57.png);
+    background-size: 700px 100%;
+    background-position: center center;
+    flex: 4.5;
+}
+
+.right-1 {
+    flex: 5.5;
+}
+
+.right-1 .war-para {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #0a0a0a;
+    padding: 30px 0;
+}
+
+.right-1 .war-heading {
+    font-weight: bolder;
+    font-size: 1.2rem;
+    line-height: 2.8rem;
+    padding-top: 10px;
+    font-weight: 600;
+}
+
+.war-button {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.war-button button:nth-child(1) {
+    color: #ffffff;
+    background-color: var(--color-0);
+    padding: 10px 20px;
+    border: 1px solid var(--color-0);
+}
+
+.war-button button:nth-child(1):hover {
+    background-color: transparent;
+    color: var(--color-0);
+}
+
+.war-button button:nth-child(2) {
+    background-color: transparent;
+    color: var(--color-0);
+    border: 1px solid var(--color-0);
+    padding: 10px 20px;
+}
+
+.war-button button:nth-child(2):hover {
+    background-color: var(--color-0);
+    color: var(--color-1);
+}
+
+
+.recomend-game {
+    margin-top: 90px;
+    padding: 22px 8%;
+    background-color: var(--color-1);
+}
+
+.this-week {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recomend-heading {
+    font-weight: 900;
+    font-size: 1.9rem;
+    font-weight: bolder;
+}
+
+/* .arrows {
+    display: flex;
+} */
+
+.arrows div:nth-child(2) {
+    padding: 1.5px 2px;
+    background-color: var(--color-0);
+    padding-left: 10px;
+}
