@@ -358,29 +358,73 @@ div.image-card-4 .review-4 {
 
 
 .recomend-game {
-    margin-top: 90px;
-    padding: 22px 8%;
-    background-color: var(--color-1);
+    padding: 80px 8%;
 }
 
 .this-week {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    padding-bottom: 30px;
 }
 
-.recomend-heading {
-    font-weight: 900;
-    font-size: 1.9rem;
-    font-weight: bolder;
-}
-
-/* .arrows {
+.recomend-game .this-week .arrows {
     display: flex;
-} */
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.arrows div:nth-child(1) {
+    display: flex;
+    background-color: var(--color-2);
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
 
 .arrows div:nth-child(2) {
-    padding: 1.5px 2px;
     background-color: var(--color-0);
-    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.game-card-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+
+.game-card-1 .game-card-s1 {
+    background-image: url(./Assets/Photos/Rectangle\ 75.png);
+    background-size: 100% 100%;
+}
+
+.game-card-1 .game-card-s1:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.game-card-1 .game-card-s2 {
+    background-image: url(./Assets/Photos/Rectangle\ 76.png);
+    background-size: 100% 100%;
+}
+
+.game-card-2 {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+.s1-game-1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex: 1;
+}
+
+.game-card-s1 {
+    background-image: url(./Assets/Photos/Rectangle\ 606.png);
 }
