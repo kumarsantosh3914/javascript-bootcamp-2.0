@@ -357,33 +357,29 @@ div.image-card-4 .review-4 {
 }
 
 
-.recomend-game {
+.reco-games{
     padding: 80px 8%;
 }
-
-.this-week {
+.reco-games .next-para{
     display: flex;
     justify-content: space-between;
     padding-bottom: 30px;
 }
-
-.recomend-game .this-week .arrows {
+.reco-games .next-para .lr-arrow{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center ;
     gap: 20px;
 }
-
-.arrows div:nth-child(1) {
-    display: flex;
+.lr-arrow div:nth-child(1){
     background-color: var(--color-2);
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 50px;
     height: 50px;
 }
-
-.arrows div:nth-child(2) {
+.lr-arrow div:nth-child(2){
     background-color: var(--color-0);
     display: flex;
     justify-content: center;
@@ -391,40 +387,309 @@ div.image-card-4 .review-4 {
     width: 50px;
     height: 50px;
 }
-
-.game-card-1 {
+.set1-game{
     display: flex;
     justify-content: space-between;
     padding-bottom: 40px;
 }
-
-.game-card-1 .game-card-s1 {
+.set1-game .s1-game-01{
     background-image: url(./Assets/Photos/Rectangle\ 75.png);
     background-size: 100% 100%;
 }
-
-.game-card-1 .game-card-s1:hover {
+.set1-game .s1-game-01:hover{
     transform: scale(0.9);
     cursor: pointer;
 }
-
-.game-card-1 .game-card-s2 {
+.set1-game .s1-game-02{
     background-image: url(./Assets/Photos/Rectangle\ 76.png);
     background-size: 100% 100%;
 }
-
-.game-card-2 {
+.set1-game .s1-game-02:hover{
     transform: scale(0.9);
     cursor: pointer;
 }
-
-.s1-game-1 {
+.s1-game1{
     display: flex;
     justify-content: space-between;
     gap: 20px;
     flex: 1;
 }
+.s1-game2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex: 1;
+}
+.s1-game-01{
+   flex: 4;
+}
+.s1-game-02{
+    flex: 4;
+ }
 
-.game-card-s1 {
+ .set2-game{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+ }
+ .set2-game .s2-game-01{
+    background-image: url(./Assets/Photos/Rectangle\ 77.png);
+    background-size: 100% 100%;
+}
+.set2-game .s2-game-01:hover{
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.set2-game .s2-game-02{
+    background-image: url(./Assets/Photos/Rectangle\ 78.png);
+    background-size: 100% 100%;
+}
+.set2-game .s2-game-02:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+  }
+.s2-game1{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex: 1;
+}
+.s2-game2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex: 1;
+}
+.s2-game-01{
+    flex: 4;
+}
+.s2-game-02{
+    flex: 4;
+}
+.para-and-btn{
+    flex: 6;
+}
+.para-and-btn p{
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.para-and-btn div:nth-child(1){
+    margin-top: 10px;
+}
+.para-and-btn div:nth-child(1) p{
+   color: var(--color-0);
+}
+.para-and-btn div:nth-child(2){
+    padding: 15px 0;
+}
+.para-and-btn div:nth-child(3) button{
+    background-color: var(--color-0);
+    border: 1px solid var(--color-0);
+    color: #ffffff;
+    padding: 8px 20px;
+}
+.para-and-btn div:nth-child(3){
+    margin-bottom: 10px;
+}
+
+
+.most-played-game {
+    background-color: var(--color-4);
+    position: relative;
+    padding: 40px 8%;
+}
+
+.most-played-game div:nth-child(1) h2 {
+    text-align: center;
+    color: var(--color-1);
+}
+
+.play-game .games-played {
+    display: flex;
+    height: 600px;
+    gap: 40px;
+}
+
+.play-game .games-played .played-game-1 {
+    background-image: url(./Assets/Photos/Rectangle\ 17.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 350px;
+    flex: 1;
+    z-index: 3;
+}
+
+.play-game .games-played .played-game-2 {
+    background-image: url(./Assets/Photos/Rectangle\ 18.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    height: 350px;
+    align-self: flex-end;
+    flex: 1;
+    z-index: 3;
+}
+
+.play-game .games-played .played-game-3 {
+    background-image: url(./Assets/Photos/Rectangle\ 90.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    flex: 1;
+    height: 240px;
+    align-self: flex-end;
+}
+
+.play-game .game-world {
+    width: 66.5%;
+}
+
+.play-game .game-world img {
+    width: 100%;
+}
+
+.play-game .data-para {
+    position: absolute;
+    top: 22%;
+    right: 18%;
+    color: var(--color-5);
+}
+
+.play-game .game-world {
+    position: absolute;
+    right: 0;
+    top: 43%;
+    z-index: 0;
+}
+
+/* Gammer section */
+.gamer {
+    padding: 22px 0;
+    background-color: var(--color-4);
+}
+
+.gamer-back {
     background-image: url(./Assets/Photos/Rectangle\ 606.png);
+    background-size: 100% 100%;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    backdrop-filter: brightness(40%);
+}
+
+.main-div button {
+    background-color: var(--color-0);
+    border: #f4694c;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.gamer-header {
+    color: var(--color-1);
+    text-align: center;
+}
+
+.gamer-para {
+    text-align: center;
+    color: var(--color-5);
+}
+
+
+/* footer section */
+footer {
+    background-color: var(--color-4);
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 8%;
+    gap: 40px;
+}
+
+.social-para {
+    color: #ffffff;
+}
+
+.social-media-icon {
+    display: flex;
+}
+
+.other-stuff {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: #ffffff;
+    gap: 2%;
+    flex: 8;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex: 2;
+}
+
+.social-media .social-para p {
+    font-size: 0.9rem;
+    color: var(--color-5);
+}
+
+.social-media .social-media-logo img {
+    width: 120px;
+}
+
+.social-media-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media-icon .facebook img{
+    width: 35px;
+}
+
+.social-media-icon .instagram img {
+    width: 35px;
+}
+
+.social-media-icon .twitter img {
+    width: 35px;
+}
+
+
+.other-stuff div li{
+    list-style: none;
+}
+
+.other-stuff div li a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    color: var(--color-5);
+}
+
+
+.other-stuff div li a:hover {
+    color: var(--color-0);
+}
+
+.other-stuff div ul {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.santosh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    padding: 3% 0;
+}
+
+.santosh h4 {
+    color: #ffffff;
 }
