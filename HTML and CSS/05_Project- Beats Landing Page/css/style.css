@@ -1,0 +1,233 @@
+:root {
+    --color-0: #0f0f10;
+    --color-1: #f2f2f3;
+    --color-3: #ffffff;
+    --color-4: #000000;
+    --color-5: #87898b;
+}
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     transition: all 0.5s ease;
+}
+
+
+.container {
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: var(--color-4);
+}
+
+.nav-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nav-lists {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.nav-lists ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.nav-lists ul li {
+    padding: 6px 13px;
+    border: 3px solid #000000;
+}
+
+.nav-lists ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+
+.nav-lists ul li:hover {
+    box-shadow: inset 0 0 1em 0 #ffffff, 0 0 0.6em #ffffff;
+    border: 3px solid #ffffff;
+    cursor: pointer;
+}
+
+.nav-lists button {
+    padding: 10px 40px;
+    border-radius: 7px;
+    border: 1px solid var(--color-0);
+    color: #ffffff;
+    background-color: var(--color-0);
+    cursor: pointer;
+}
+
+
+.headphone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 14%;
+}
+
+.headphone img {
+    width: 100%;
+}
+
+section {
+    padding: 20px 10%;
+    background-color: #000000;
+}
+
+.hero-header h1 {
+    font-size: 2.7rem;
+    color: hsl(0, 0%, 100%);
+}
+
+.hero-section-bag {
+    color: #ffffff;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 15%;
+}
+
+.one-ear img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-header {
+    position: relative;
+    right: 30%;
+}
+
+.hero-section-bag {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 25%;
+}
+
+.hero-bag {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: 7px;
+    background-color: var(--color-0);
+    /* padding-right: 80px; */
+    margin-right: 80px;
+}
+
+.hero-bag:hover {
+    cursor: pointer;
+}
+
+
+.hero-section-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.hero-header-para {
+    padding-top: 50px;
+}
+
+
+.hero-section-sponsors {
+    display: grid;
+    grid-template-columns: 124px 124px 124px 124px;
+    align-content: center;
+    justify-content: space-between;
+    padding: 5% 4%;
+}
+
+.sponsors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 59px;
+    width: 124px;
+}
+
+.appleLogo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.appleLogo:hover {
+    box-shadow: inset 0 0 1.8rem 0 #66615b, 0 0 0.6rem 0 #66615b;
+    border: #66615b 4px solid;
+}
+
+.spotifyLogo {
+    padding: 8px;
+    border: #000000 4px solid;
+}
+
+.spotifyLogo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spotifyLogo:hover {
+    box-shadow: inset 0 0 1.8rem 0 #1ccc5b, 0 0 0.6rem 0 #1ccc5b;
+    border: #1ccc5b 4px solid;
+}
+
+.amazonLogo {
+    border: #000000 4px solid;
+}
+
+.amazonLogo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.amazonLogo:hover {
+    box-shadow: inset 0 0 1.8rem 0 #FF9400, 0 0 0.6rem 0 #FF9400;
+    border: #FF9400 4px solid;
+}
+
+
+.youtubeLogo {
+    border: #000000 4px solid;
+}
+
+.youtubeLogo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.youtubeLogo:hover {
+    box-shadow: inset 0 0 1.8rem 0 #ff0000, 0 0 0.6rem 0 #ff0000;
+    border: #ff0000 4px solid;
+}
+
