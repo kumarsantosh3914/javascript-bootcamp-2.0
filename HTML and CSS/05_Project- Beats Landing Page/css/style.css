@@ -492,3 +492,130 @@ section {
     width: 20px;
 }
 
+
+
+/* footer section */
+footer {
+    padding: 30px 13%;
+    padding-top: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.footer-section {
+    display: flex;
+    gap: 4rem;
+}
+
+
+.footer-email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background-color: var(--color-0);
+}
+
+
+.footer-email input {
+    border: 0;
+    outline: 0;
+    color: #ffffff;
+    background-color: var(--color-0);
+}
+
+.footer-rightarrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+
+::placeholder {
+    color: var(--color-3);
+}
+
+
+.footer-subscribe {
+    padding: 8px 10px;
+    border-radius: 8px;
+    background-color: var(--color-4);
+}
+
+
+.footer-subscribe:hover {
+    cursor: pointer;
+}
+
+.footer-rightarrow img {
+    width: 18px;
+    height: 18px;
+}
+
+.footer-rightarrow p {
+    font-size: 0.85rem;
+}
+
+
+.footer-section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+
+.social-meadia-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-meadia-icons img {
+    cursor: pointer;
+}
+
+.footer-list-1 h3 a {
+    text-decoration: none;
+    font-size: 0.95;
+    color: #ffffff;
+}
+
+.footer-list-2 h3 a {
+    text-decoration: none;
+    font-size: 0.95;
+    color: #ffffff;
+}
+
+.footer-list-1 ul li a {
+    text-decoration: none;
+    color: var(--color-5);
+}
+
+.footer-list-2 ul li a {
+    text-decoration: none;
+    color: var(--color-5);
+}
+
+.footer-list-1 ul li, .footer-list-2 ul li {
+    list-style: none;
+    font-size: 0.9rem;
+}
+
+.footer-list-1, .footer-list-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.footer-list-1 ul, .footer-list-2 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
