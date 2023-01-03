@@ -231,3 +231,264 @@ section {
     border: #ff0000 4px solid;
 }
 
+
+.specs-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 30px 10%;
+}
+
+.specs-section-main {
+    display: flex;
+    gap: 30px;
+}
+
+.specs-section-type {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.specs-1 p, .specs-2 p, .specs-3 p, .specs-4 p {
+    font-size: 0.9rem;
+    color: #87898b;
+}
+
+.specs-2 {
+    transform: translateX(-20%);
+}
+
+.specs-3 {
+    transform: translateX(-20%);
+}
+
+.specs-headphone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.specs-headphone img {
+    width: 95%;
+}
+
+
+.case-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 5%;
+    background-color: var(--color-4);
+}
+
+.case-logo {
+    display: flex;
+    color: #ffffff;
+    gap: 40px;
+}
+
+.case-section-main {
+    display: flex;
+    gap: 40px;
+    color: #ffffff;
+}
+
+.case-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.case-image img {
+    width: 80%;
+}
+
+.case-image img:hover {
+    width: 100%;
+}
+
+.case-button-para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.case-para p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    color: var(--color-5);
+}
+
+.case-button {
+    display: flex;
+}
+
+.case-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.case-button div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--color-0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.case-button div img {
+    width: 18px;
+    height: 18px;
+}
+
+.music {
+    padding-top: 8%;
+    color: #ffffff;
+    padding: 30px 15%;
+    background-color: #000000;
+}
+
+.music-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 30px 20px;
+    border-radius: 8px;
+    background-color: #0f0f10;
+}
+
+
+.music-headphone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* cursor: pointer; */
+}
+
+.music-headphone img {
+    width: 90%;
+}
+
+.buynow {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px 18px;
+    border-radius: 7px;
+    background-color: var(--color-4);
+    gap: 10px;
+}
+
+.music-para-inside {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.music-para {
+    font-size: 0.9rem;
+    color: var(--color-5);
+    align-self: flex-start;
+}
+
+.buynow {
+    align-self: flex-start;
+}
+
+.music-headphone img:hover {
+    width: 100%;
+}
+
+
+/* chose your style */
+.style {
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.style {
+    padding: 30px 15%;
+    background-color: #000000;
+}
+
+.chose-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.chose-style-headphones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.headphone-style {
+    position: absolute;
+    top: -25px;
+}
+
+.headphone-style img {
+    width: 80px;
+}
+
+.different-styles {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 180px;
+    height: 180px;
+    border-radius: 8px;
+    background-color: var(--color-0);
+}
+
+.headphone-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.headphone-price div:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 7px;
+    background-color: #000000;
+}
+
+
+.headphone-price div:nth-child(1) {
+    padding-bottom: 8px;
+}
+
+.headphone-price div:nth-child(1) p {
+    font-size: 0.9rem;
+}
+
+.headphone-price div:nth-child(2) img {
+    width: 20px;
+}
+
