@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.main_container {
+    overflow: hidden;
+}
+
+:root{
+    --color-0:#722ed1;
+    --color-1:#e4f2ff;
+    --color-2:#f4f8ff;
+    --color-3:#dfbff8;
+    --color-4:#8f59db;
+    --color-5:#7f8388;
+    --color-6:#fcf8ff;
+}
+
+.main_container {
+    position: relative;
+}
+
+/* Navbar */
+
+.container {
+    background: linear-gradient(175deg, #f4f8ff 5%, #e4f2ff 80%, #f4f8ff 30%);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 10%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 20;
+   
+}
+
+
+.main-list-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-lists ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-lists ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.nav-button button {
+    padding: 10px 13px;
+    border: 1px solid var(--color-0);
+    border-radius: 100vw;
+    color: #8f59db;
+    background-color: transparent;
+    font-weight: 600;
+}
