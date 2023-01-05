@@ -77,3 +77,269 @@ nav {
     background-color: transparent;
     font-weight: 600;
 }
+
+
+/* hero section */
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.left-version {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 10px;
+    border-radius: 100vw;
+    /* color: var(--color-4); */
+    background-color: var(--color-3);
+}
+
+.left-version p {
+    color: var(--color-4);
+    font-weight: 600;
+}
+
+
+.left-version p a {
+    color: var(--color-4);
+    font-weight: 600;
+}
+
+
+.left-header h2{
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.left-para p {
+    color: var(--color-5);
+    font-weight: 600;
+}
+
+.left-button button:nth-child(1){
+    padding: 8px 17px;
+    border-radius: 100vw;
+    color: #f4f8ff;
+    border: 1px solid var(--color-0);
+    background-color: var(--color-0);
+    cursor: pointer;
+}
+
+.left-button button:nth-child(2) {
+    padding: 8px 17px;
+    border-radius: 100vw;
+    border: none;
+    background-color: var(--color-2);
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.right img {
+    width: 100%;
+}
+
+/* Big data in 3 steps */
+.Big-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 5%;
+    background-color: #f4f8ff;
+}
+
+.why-qubly {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.eyes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #8f59db;
+    background-color: var(--color-3);
+    padding: 7px 14px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: 600;
+    border-radius: 100vw;
+}
+
+.why-qubly h2 {
+    font-weight: 600;
+    font-size: 1.65rem;
+}
+
+
+.qubly-para p {
+    text-align: center;
+    color: var(--color-5);
+    font-weight: 600;
+    font-size: 0.85rem;
+}
+
+.eyes img {
+    width: 34px;
+    height: 20px;
+}
+
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: wrap;
+    gap: 20px;
+}
+
+.feature-1, .feature-2,  .feature-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 13px;
+}
+
+.features-imgae {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.qubly-feature div:nth-child(3) {
+    padding-top: 10px;
+    font-size: 0.85rem;
+    color: var(--color-5);
+    font-weight: 600;
+}
+
+.ready {
+    margin-left: 10px;
+}
+
+.Valuable {
+    margin-left: 25px;
+}
+
+.its {
+    margin-left: 50px;
+}
+
+
+/* for product teams */
+.production {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: var(--color-2);
+    padding-top: 8%;
+    gap: 20px;
+}
+
+.production-left-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+}
+
+.production-left-image img{
+    width: 100%;
+}
+
+.production-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+    margin-left: 50px;
+}
+
+
+.production-right div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 15px;
+    border-radius: 100vw;
+    color: #8f59db;
+    font-weight: 600;
+    background-color: var(--color-3);
+}
+
+
+.production-right div:nth-child(3) {
+    font-weight: 600;
+    color: var(--color-5);
+}
+
+
+/* for enginnering teams */
+.engineering  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding-top: 8%;
+    background-color: var(--color-2);
+}
+
+.engineering-left {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.engineering-left div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 8px 14px;
+    border-radius: 100vw;
+    background-color: var(--color-3);
+}
+
+
+.engineering-left div:nth-child(1) {
+    color: #722ed1;
+    font-weight: 600;
+}
+
+
+.engineering-left div:nth-child(3) p{
+    color: var(--color-5);
+    font-weight: 600;
+}
+
