@@ -382,3 +382,154 @@ section {
     width: 90px;
 }
 
+/* sign up page */
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    padding: 20px 15%;
+    padding-top: 13%;
+    padding-bottom: 5%;
+    background: linear-gradient(175deg, #e4f2ff 20%, #f4f8ff 20%);
+}
+
+.sign-up-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+.sign-up-left-trusted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.sign-up-left-trusted div {
+    flex: 1;
+    height: 1.5px;
+    background-color: #7f8388;
+}
+
+.sign-up-left-trusted p {
+    flex: 1;
+    text-align: center;
+    font-weight: 600;
+    color: #7f8388;
+}
+
+
+.sign-up-logo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+
+.sign-up-right {
+    padding: 0px 10px;
+    border-radius: 4px;
+    background-color: #dfbff8;
+    margin-right: 280px;
+    padding-bottom: 15px;
+}
+
+.sign-up-right-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px #000000;
+    background-color: #e4f2ff;
+    gap: 10px;
+    padding: 10px 30px;
+    top: -20px;
+    border-radius: 4px;
+    /* margin-right: 280px; */
+}
+
+.sign-up-right-form p:nth-child(1) {
+    font-weight: 600;
+}
+
+.sign-up-right-form p:nth-child(6) {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+
+.sign-up-right-form p:nth-child(9) {
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #7f8388;
+}
+
+
+.sign-up-right-form p:nth-child(9) a {
+    color: #722ed1;
+    font-weight: 600;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.sign-up-line {
+    height: 1px;
+    background-color: #7f8388;
+    width: 100%;
+}
+
+.sign-up-right-form img {
+    width: 180px;
+    align-self: center;
+}
+
+.button-input {
+    padding: 8px 10px;
+    text-align: center;
+    color: #fcf8ff;
+    background-color: #722ed1;
+    border: 1px solid #722ed1;
+    border-radius: 4px;
+    padding-right: 100px;
+}
+
+.button-input:hover {
+    cursor: pointer;
+}
+
+.button-email {
+    padding: 8px 10px;
+    border: 1px solid #7f8388;
+    outline: 0;
+    background-color: #e4f2ff;
+    padding-right: 50px;
+}
+
+.button-password {
+    padding: 8px 10px;
+    border: 1px solid #7f8388;
+    outline: 0;
+    background-color: #e4f2ff;
+    padding-right: 50px;
+}
+
+
+.button-repassword {
+    padding: 8px 10px;
+    border: 1px solid #7f8388;
+    outline: 0;
+    background-color: #e4f2ff;
+    padding-right: 50px;
+}
+
+.sign-up-right-form img:hover {
+    cursor: pointer;
+}
+
+
+/*  */
