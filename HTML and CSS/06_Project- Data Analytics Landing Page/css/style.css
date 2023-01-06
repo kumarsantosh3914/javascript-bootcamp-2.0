@@ -343,3 +343,42 @@ section {
     font-weight: 600;
 }
 
+.cto {
+    background: linear-gradient(175deg, #f4f8ff 20%,#e5d6f0 20%,#e5d6f0, #e4f2ff , #e4f2ff 90%, #e4f2ff 90%);
+    padding-top: 12.5%;
+    /* padding: 20px 10%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+
+.cto-remarks {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.cto-info p {
+    font-weight: 600;
+}
+
+
+.cto-line {
+    height: 2px;
+    width: 65%;
+    background-color: hsl(255, 4%, 78%);
+}
+
+.cto-logo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+.cto-logo img {
+    width: 90px;
+}
+
